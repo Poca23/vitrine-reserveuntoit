@@ -5,6 +5,7 @@ cnd@cnd-ThinkPad-P53:~/Projets/JavaScript/Pure/vitrine-reserveuntoit$ tree -L 6
 │ ├── fonts
 │ └── img
 │ ├── brand
+│ │ ├── favicon.ico
 │ │ └── reserveuntoit-preview-bck.png
 │ ├── desktop
 │ ├── figma
@@ -89,4 +90,4 @@ cnd@cnd-ThinkPad-P53:~/Projets/JavaScript/Pure/vitrine-reserveuntoit$ tree -L 6
 ├── 06-admin.html
 └── 07-future.html
 
-21 directories, 68 files
+21 directories, 69 files
