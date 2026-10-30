@@ -1,0 +1,6 @@
+.design code {
+  padding: 0 var(--space-1);
+  background: var(--color-surface);
+  border-radius: var(--radius-sm);
+  overflow-wrap: anywhere;
+}
