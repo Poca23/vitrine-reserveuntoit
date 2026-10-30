@@ -8,6 +8,7 @@ import { initDeviceSwitch } from "./features/device-switch.js";
 import { initFuture } from "./features/future.js";
 import { initReveal } from "./features/reveal.js";
 import { initScrollProgress } from "./features/scroll-progress.js";
+import { initActiveLink } from "./features/active-link.js";
 
 const init = async () => {
   initNavToggle();
@@ -19,6 +20,7 @@ const init = async () => {
   initFuture();
   initReveal();
   initScrollProgress();
+  initActiveLink();
 };
 
 if (document.readyState === "loading") {

@@ -111,3 +111,8 @@
     padding: var(--space-2) 0;
   }
 }
+
+.nav__link[aria-current="true"] {
+  color: var(--color-secondary);
+  font-weight: var(--weight-semibold);
+}
