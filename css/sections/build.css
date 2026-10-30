@@ -1,0 +1,21 @@
+.build__subtitle {
+  margin-block: var(--space-6) var(--space-4);
+  font-size: var(--text-xl);
+}
+
+.build__grid {
+  display: grid;
+  gap: var(--space-5);
+}
+
+@media (min-width: 768px) {
+  .build__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .build__grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

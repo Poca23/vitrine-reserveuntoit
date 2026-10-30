@@ -47,10 +47,12 @@ cnd@cnd-ThinkPad-P53:~/Projets/JavaScript/Pure/vitrine-reserveuntoit$ tree -L 6
 │ │ ├── loader.js
 │ │ └── observer.js
 │ ├── data
+│ │ ├── build.js
 │ │ ├── gallery.js
 │ │ └── sprints.js
 │ ├── features
 │ │ ├── active-link.js
+│ │ ├── build.js
 │ │ ├── device-switch.js
 │ │ ├── lightbox.js
 │ │ ├── nav-toggle.js
@@ -68,7 +70,9 @@ cnd@cnd-ThinkPad-P53:~/Projets/JavaScript/Pure/vitrine-reserveuntoit$ tree -L 6
 │ ├── 2-resume.md
 │ ├── 3-resume.md
 │ ├── 4-resume.md
-│ └── 5-resume.md
+│ ├── 5-resume.md
+│ ├── 6-resume.md
+│ └── 7-resume.md
 └── sections
 ├── 00-hero.html
 ├── 01-need.html
@@ -79,4 +83,4 @@ cnd@cnd-ThinkPad-P53:~/Projets/JavaScript/Pure/vitrine-reserveuntoit$ tree -L 6
 ├── 06-admin.html
 └── 07-future.html
 
-21 directories, 58 files
+21 directories, 62 files

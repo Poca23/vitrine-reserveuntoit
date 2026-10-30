@@ -1,0 +1,18 @@
+.device__list--mobile .device__item {
+  max-width: var(--device-mobile-max);
+  aspect-ratio: 9 / 19;
+  margin-inline: auto;
+}
+
+@media (min-width: 768px) {
+  .device__list--mobile {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    justify-items: center;
+  }
+}
+
+@media (min-width: 1024px) {
+  .device__list--mobile {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}

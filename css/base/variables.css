@@ -83,6 +83,8 @@
   --logo-size: 2rem;
   --toggle-size: 2.75rem;
   --badge-size: 2.5rem;
+  --device-desktop-max: 60rem;
+  --device-mobile-max: 20rem;
   --burger-width: 1.5rem;
   --burger-thickness: 2px;
   --burger-gap: 0.45rem;
