@@ -78,6 +78,16 @@
 
   --container-padding: var(--space-4);
   --container-max: 80rem;
+
+  --header-height: 4rem;
+  --logo-size: 2rem;
+  --toggle-size: 2.75rem;
+  --burger-width: 1.5rem;
+  --burger-thickness: 2px;
+  --burger-gap: 0.45rem;
+
+  --z-header: 100;
+  --z-skip: 200;
 }
 
 /* Breakpoints (non utilisables dans @media via var(), référence) :

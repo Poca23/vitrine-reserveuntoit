@@ -1,0 +1,59 @@
+/* ===== Lien d'évitement ===== */
+.skip-link {
+  position: absolute;
+  left: var(--space-2);
+  top: -100%;
+  z-index: var(--z-skip);
+  padding: var(--space-2) var(--space-4);
+  background: var(--color-primary);
+  color: var(--color-on-primary);
+  border-radius: var(--radius-md);
+}
+
+.skip-link:focus {
+  top: var(--space-2);
+}
+
+/* ===== Header (base mobile) ===== */
+.header {
+  position: sticky;
+  top: 0;
+  z-index: var(--z-header);
+  background: var(--color-surface);
+  border-bottom: 1px solid var(--color-border);
+  box-shadow: var(--shadow-property);
+}
+
+.header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: var(--header-height);
+}
+
+/* ===== Marque ===== */
+.header__brand {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-weight: var(--weight-bold);
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+.header__logo {
+  width: var(--logo-size);
+  height: var(--logo-size);
+}
+
+/* Mobile : logo seul */
+.header__name {
+  display: none;
+}
+
+/* ===== Tablette et plus : logo + texte ===== */
+@media (min-width: 768px) {
+  .header__name {
+    display: inline;
+  }
+}

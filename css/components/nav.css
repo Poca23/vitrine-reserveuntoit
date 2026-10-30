@@ -1,0 +1,113 @@
+/* ===== Bouton burger (mobile et tablette) ===== */
+.nav-toggle {
+  display: grid;
+  place-items: center;
+  width: var(--toggle-size);
+  height: var(--toggle-size);
+  background: none;
+  border: 0;
+  border-radius: var(--radius-md);
+  cursor: pointer;
+}
+
+.nav-toggle:focus-visible {
+  outline: var(--burger-thickness) solid var(--color-secondary);
+}
+
+.nav-toggle__burger,
+.nav-toggle__burger::before,
+.nav-toggle__burger::after {
+  display: block;
+  width: var(--burger-width);
+  height: var(--burger-thickness);
+  background: var(--color-primary);
+  transition:
+    transform var(--transition),
+    background var(--transition);
+}
+
+.nav-toggle__burger {
+  position: relative;
+}
+
+.nav-toggle__burger::before,
+.nav-toggle__burger::after {
+  content: "";
+  position: absolute;
+  left: 0;
+}
+
+.nav-toggle__burger::before {
+  top: calc(var(--burger-gap) * -1);
+}
+
+.nav-toggle__burger::after {
+  top: var(--burger-gap);
+}
+
+/* État ouvert : croix */
+.nav-toggle[aria-expanded="true"] .nav-toggle__burger {
+  background: transparent;
+}
+
+.nav-toggle[aria-expanded="true"] .nav-toggle__burger::before {
+  transform: translateY(var(--burger-gap)) rotate(45deg);
+}
+
+.nav-toggle[aria-expanded="true"] .nav-toggle__burger::after {
+  transform: translateY(calc(var(--burger-gap) * -1)) rotate(-45deg);
+}
+
+/* ===== Panneau de navigation (mobile et tablette) ===== */
+.nav {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  display: none;
+  background: var(--color-surface);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.nav--open {
+  display: block;
+}
+
+.nav__list {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: var(--space-2) var(--container-padding);
+  list-style: none;
+}
+
+.nav__link {
+  display: block;
+  padding: var(--space-3) 0;
+  text-decoration: none;
+}
+
+/* ===== Desktop : navigation horizontale, burger masqué ===== */
+@media (min-width: 1024px) {
+  .nav-toggle {
+    display: none;
+  }
+
+  .nav,
+  .nav--open {
+    position: static;
+    display: block;
+    background: none;
+    border: 0;
+  }
+
+  .nav__list {
+    flex-direction: row;
+    gap: var(--space-5);
+    padding: 0;
+  }
+
+  .nav__link {
+    padding: var(--space-2) 0;
+  }
+}
