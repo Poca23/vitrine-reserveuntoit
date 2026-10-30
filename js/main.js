@@ -5,6 +5,7 @@ import { initTimeline } from "./features/timeline.js";
 import { initTabs } from "./features/tabs.js";
 import { initBuild } from "./features/build.js";
 import { initDeviceSwitch } from "./features/device-switch.js";
+import { initFuture } from "./features/future.js";
 
 const init = async () => {
   initNavToggle();
@@ -13,7 +14,8 @@ const init = async () => {
   initTabs();
   initBuild();
   initDeviceSwitch();
-  // Étape 5 : reveal, scroll-progress, active-link, lightbox...
+  initDeviceSwitch();
+  initFuture();
 };
 
 if (document.readyState === "loading") {
