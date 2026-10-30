@@ -1,0 +1,87 @@
+:root {
+  --blue-900: #1e3a8a;
+  --blue-800: #1e40af;
+  --blue-500: #3b82f6;
+  --purple-700: #7e22ce;
+  --purple-600: #9333ea;
+  --purple-500: #a855f7;
+  --gray-900: #111827;
+  --gray-800: #333333;
+  --gray-300: #d1d5db;
+  --gray-200: #e5e7eb;
+  --gray-50: #f9fafb;
+  --white: #ffffff;
+  --black: #000000;
+  --blue-200: #bfdbfe;
+  --purple-300: #d8b4fe;
+}
+
+:root {
+  --color-primary: var(--blue-800);
+  --color-primary-light: var(--blue-500);
+  --color-primary-dark: var(--blue-900);
+  --color-secondary: var(--purple-600);
+  --color-secondary-light: var(--purple-500);
+  --color-secondary-dark: var(--purple-700);
+  --color-text: var(--gray-800);
+  --color-bg: var(--white);
+  --color-surface: var(--gray-50);
+  --color-border: var(--gray-200);
+  --color-on-primary: var(--white);
+  --color-overlay: rgb(0 0 0 / 0.5);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-primary: var(--blue-200);
+    --color-primary-light: var(--blue-500);
+    --color-primary-dark: var(--blue-900);
+    --color-secondary: var(--purple-300);
+    --color-text: var(--gray-200);
+    --color-bg: var(--gray-900);
+    --color-surface: var(--gray-800);
+    --color-border: var(--gray-300);
+    --color-on-primary: var(--gray-900);
+  }
+}
+
+:root {
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-8: 4rem;
+  --space-10: 5rem;
+
+  --radius-sm: 0.25rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 1rem;
+
+  --shadow-property: 0 4px 6px rgb(0 0 0 / 0.1);
+  --shadow-property-hover: 0 10px 15px rgb(0 0 0 / 0.15);
+
+  --font-sans:
+    system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+
+  --text-base: 1rem;
+  --text-lg: 1.25rem;
+  --text-xl: 1.5rem;
+  --text-2xl: 2rem;
+  --text-3xl: 2.5rem;
+  --leading: 1.6;
+  --weight-semibold: 600;
+  --weight-bold: 700;
+
+  --transition: 0.2s ease;
+
+  --container-padding: var(--space-4);
+  --container-max: 80rem;
+}
+
+/* Breakpoints (non utilisables dans @media via var(), référence) :
+   640px  : sm  (padding conteneur 2rem)  <- ajouté, repris de l'app
+   768px  : md  (tablette)
+   1024px : lg  (desktop, padding 4rem)
+   1280px : xl  (padding 5rem)            <- ajouté, repris de l'app */
