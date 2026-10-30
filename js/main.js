@@ -9,6 +9,7 @@ import { initFuture } from "./features/future.js";
 import { initReveal } from "./features/reveal.js";
 import { initScrollProgress } from "./features/scroll-progress.js";
 import { initActiveLink } from "./features/active-link.js";
+import { initLightbox } from "./features/lightbox.js";
 
 const init = async () => {
   initNavToggle();
@@ -21,6 +22,7 @@ const init = async () => {
   initReveal();
   initScrollProgress();
   initActiveLink();
+  initLightbox();
 };
 
 if (document.readyState === "loading") {

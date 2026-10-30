@@ -93,6 +93,7 @@
   --z-header: 100;
   --z-skip: 200;
   --z-progress: 150;
+  --z-lightbox: 300;
 }
 
 /* Breakpoints (non utilisables dans @media via var(), référence) :
