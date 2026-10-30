@@ -1,0 +1,32 @@
+.need__grid {
+  display: grid;
+  gap: var(--space-5);
+}
+
+.need__card {
+  padding: var(--space-5);
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-property);
+  transition: box-shadow var(--transition);
+}
+
+.need__card:hover {
+  box-shadow: var(--shadow-property-hover);
+}
+
+.need__card-title {
+  margin-block-end: var(--space-3);
+  font-size: var(--text-xl);
+}
+
+.need__list {
+  padding-inline-start: var(--space-5);
+}
+
+@media (min-width: 768px) {
+  .need__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

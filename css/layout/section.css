@@ -1,0 +1,25 @@
+.section {
+  padding-block: var(--space-8);
+  scroll-margin-top: var(--header-height);
+}
+
+.section__title {
+  margin-block-end: var(--space-5);
+  font-size: var(--text-2xl);
+}
+
+.section__lead {
+  max-width: 45rem;
+  margin-block-end: var(--space-5);
+  font-size: var(--text-lg);
+}
+
+@media (min-width: 1024px) {
+  .section {
+    padding-block: var(--space-10);
+  }
+
+  .section__title {
+    font-size: var(--text-3xl);
+  }
+}
