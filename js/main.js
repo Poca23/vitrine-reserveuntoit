@@ -14,7 +14,6 @@ const init = async () => {
   initTabs();
   initBuild();
   initDeviceSwitch();
-  initDeviceSwitch();
   initFuture();
 };
 
