@@ -18,3 +18,5 @@
 @import url("sections/build.css");
 @import url("sections/result.css");
 @import url("sections/future.css");
+@import url("components/reveal.css");
+@import url("components/progress.css");

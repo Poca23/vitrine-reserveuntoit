@@ -1,0 +1,11 @@
+.progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: var(--z-progress);
+  width: 100%;
+  height: var(--progress-height);
+  background: var(--color-secondary);
+  transform: scaleX(0);
+  transform-origin: left;
+}

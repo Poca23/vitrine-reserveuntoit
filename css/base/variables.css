@@ -88,9 +88,11 @@
   --burger-width: 1.5rem;
   --burger-thickness: 2px;
   --burger-gap: 0.45rem;
+  --progress-height: 4px;
 
   --z-header: 100;
   --z-skip: 200;
+  --z-progress: 150;
 }
 
 /* Breakpoints (non utilisables dans @media via var(), référence) :

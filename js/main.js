@@ -6,6 +6,8 @@ import { initTabs } from "./features/tabs.js";
 import { initBuild } from "./features/build.js";
 import { initDeviceSwitch } from "./features/device-switch.js";
 import { initFuture } from "./features/future.js";
+import { initReveal } from "./features/reveal.js";
+import { initScrollProgress } from "./features/scroll-progress.js";
 
 const init = async () => {
   initNavToggle();
@@ -15,6 +17,8 @@ const init = async () => {
   initBuild();
   initDeviceSwitch();
   initFuture();
+  initReveal();
+  initScrollProgress();
 };
 
 if (document.readyState === "loading") {
