@@ -27,10 +27,10 @@ export const LESSONS = [
   },
   {
     title: "Choisir des outils adaptés",
-    text: "Laravel, Livewire et Filament ont fait gagner un temps précieux.",
+    text: "Livewire pour l'interactivité, Filament pour l'administration : deux outils qui évitent de tout recoder.",
   },
   {
     title: "Versionner avec rigueur",
-    text: "Branches et Pull Requests gardent un historique propre.",
+    text: "Une branche par fonctionnalité et des Pull Requests gardent un historique propre.",
   },
 ];

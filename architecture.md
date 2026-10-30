@@ -24,6 +24,7 @@ cnd@cnd-ThinkPad-P53:~/Projets/JavaScript/Pure/vitrine-reserveuntoit$ tree -L 6
 │ │ ├── lightbox.css
 │ │ ├── nav.css
 │ │ ├── progress.css
+│ │ ├── reveal.css
 │ │ ├── tabs.css
 │ │ └── timeline.css
 │ ├── layout
@@ -76,7 +77,8 @@ cnd@cnd-ThinkPad-P53:~/Projets/JavaScript/Pure/vitrine-reserveuntoit$ tree -L 6
 │ ├── 5-resume.md
 │ ├── 6-resume.md
 │ ├── 7-resume.md
-│ └── 8-resume.md
+│ ├── 8-resume.md
+│ └── 9-resume.md
 └── sections
 ├── 00-hero.html
 ├── 01-need.html
@@ -87,4 +89,4 @@ cnd@cnd-ThinkPad-P53:~/Projets/JavaScript/Pure/vitrine-reserveuntoit$ tree -L 6
 ├── 06-admin.html
 └── 07-future.html
 
-21 directories, 66 files
+21 directories, 68 files
