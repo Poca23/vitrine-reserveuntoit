@@ -43,7 +43,7 @@
 
 .header__logo {
   width: var(--logo-size);
-  height: var(--logo-size);
+  height: auto;
 }
 
 /* Mobile : logo seul */
