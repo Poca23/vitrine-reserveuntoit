@@ -35,13 +35,14 @@
   :root {
     --color-primary: var(--blue-200);
     --color-primary-light: var(--blue-500);
-    --color-primary-dark: var(--blue-900);
+    --color-primary-dark: var(--blue-500);
     --color-secondary: var(--purple-300);
     --color-text: var(--gray-200);
     --color-bg: var(--gray-900);
     --color-surface: var(--gray-800);
     --color-border: var(--gray-300);
     --color-on-primary: var(--gray-900);
+    --color-secondary-dark: var(--purple-500);
   }
 }
 

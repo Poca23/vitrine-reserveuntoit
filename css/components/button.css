@@ -35,3 +35,8 @@
   outline: 3px solid var(--color-secondary-light);
   outline-offset: 2px;
 }
+
+.button:hover,
+.button:active {
+  color: var(--color-on-primary);
+}
